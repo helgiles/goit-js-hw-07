@@ -37,6 +37,7 @@ createButton.addEventListener('click', () => {
 	if (amount >= 1 && amount <= 100) {
 		createBoxes(amount);
 	}
+	number.value = '';
 });
 
 destroyButton.addEventListener('click', destroyBoxes);

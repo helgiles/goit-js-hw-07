@@ -14,6 +14,7 @@ const registration = event => {
 		password: password,
 	};
 	console.log(formData);
+	form.reset();
 };
 
 form.addEventListener('submit', registration);
