@@ -98,7 +98,9 @@ body {
 }
 
 .login-form label {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	width: 360px;
 }
 
 .login-form input {
